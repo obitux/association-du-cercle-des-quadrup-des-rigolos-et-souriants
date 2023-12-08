@@ -9,10 +9,7 @@ public static class SecretariatModule
     public static IServiceCollection RegisterAppModule(this IServiceCollection services)
     {
         services.AddSingleton<IMembreRepository>(sp => new InMemoryMembreRepository());
-        services.AddScoped<IQueryBus>(sp => new InMemoryQueryBus(sp));
-        services.AddScoped<ICommandBus>(sp => new InMemoryCommandBus(sp));
-
-        services.AddSingleton<IMembreRepository>(sp => new InMemoryMembreRepository());
+        
         services.AddScoped<IQueryBus>(sp => new InMemoryQueryBus(sp));
         services.AddScoped<ICommandBus>(sp => new InMemoryCommandBus(sp));
 

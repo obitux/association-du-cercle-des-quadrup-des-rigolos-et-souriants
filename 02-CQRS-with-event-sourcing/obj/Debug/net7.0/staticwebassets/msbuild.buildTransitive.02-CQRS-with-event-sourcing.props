@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/02-CQRS-with-event-sourcing.props" />
-</Project>

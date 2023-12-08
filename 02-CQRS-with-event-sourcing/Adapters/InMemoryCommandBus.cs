@@ -9,8 +9,8 @@ public class InMemoryCommandBus : ICommandBus
         _serviceProvider = serviceProvider;
     }
 
-    public Task Send<TCommand>(TCommand command, CancellationToken ct)
+    public void Send<TCommand>(TCommand command)
     {
-        return _serviceProvider.GetRequiredService<ICommandHandler<TCommand>>().Handle(command, ct);
+        _serviceProvider.GetRequiredService<ICommandHandler<TCommand>>().Handle(command);
     }
 }

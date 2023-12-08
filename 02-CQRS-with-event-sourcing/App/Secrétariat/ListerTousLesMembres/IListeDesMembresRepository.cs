@@ -4,6 +4,6 @@ public record MembreInRepository(string Nom, string Prénom, string Email);
 
 public interface IListeDesMembresRepository
 {
-    public Task Create(string nom, string prénom, string email);
-    public Task<List<MembreInRepository>> List();
+    public void Create(string nom, string prénom, string email);
+    public List<MembreInRepository> List();
 }

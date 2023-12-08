@@ -9,10 +9,9 @@ public class InMemoryEventBus : IEventBus
         _serviceProvider = serviceProvider;
     }
 
-    public async Task Send<TEvent>(TEvent ev, CancellationToken ct)
+    public void Send<TEvent>(TEvent ev)
     {
         var eventHandlers = _serviceProvider.GetServices<IEventHandler<TEvent>>();
-        // FIXME : Do not await ? Do not run in seq ?
-        foreach (var handler in eventHandlers) await handler.Handle(ev, ct);
+        eventHandlers.ToList().ForEach(handler => handler.Handle(ev));
     }
 }

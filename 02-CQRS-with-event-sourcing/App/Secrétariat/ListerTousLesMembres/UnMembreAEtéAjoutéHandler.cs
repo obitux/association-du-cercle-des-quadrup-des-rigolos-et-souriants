@@ -12,8 +12,8 @@ public class UnMembreAEtéAjoutéHandler : IEventHandler<UnMembreAEtéAjoutéEve
         _listeDesMembresRepository = listeDesMembresRepository;
     }
 
-    public async Task Handle(UnMembreAEtéAjoutéEvent ev, CancellationToken ct)
+    public async void Handle(UnMembreAEtéAjoutéEvent ev)
     {
-        await _listeDesMembresRepository.Create(ev.Nom, ev.Prénom, ev.Email);
+         _listeDesMembresRepository.Create(ev.Nom, ev.Prénom, ev.Email);
     }
 }

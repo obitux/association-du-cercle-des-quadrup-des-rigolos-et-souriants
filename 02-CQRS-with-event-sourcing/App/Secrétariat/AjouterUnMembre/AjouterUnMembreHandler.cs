@@ -12,9 +12,9 @@ public class AjouterUnMembreHandler : ICommandHandler<AjouterUnMembreCommand>
         _eventBus = eventBus;
     }
 
-    public async Task Handle(AjouterUnMembreCommand command, CancellationToken ct)
+    public void Handle(AjouterUnMembreCommand command)
     {
         var unMembreAEtéAjoutéEvent = new UnMembreAEtéAjoutéEvent(command.Nom, command.Prénom, command.Email);
-        await _eventBus.Send(unMembreAEtéAjoutéEvent, ct);
+        _eventBus.Send(unMembreAEtéAjoutéEvent);
     }
 }

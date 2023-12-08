@@ -19,6 +19,6 @@ public class AjouterUnMembreController : ControllerBase
         CancellationToken ct,
         [FromBody] AjouterUnMembreCommand command)
     {
-        await _commandBus.Send(command, ct);
+        _commandBus.Send(command);
     }
 }

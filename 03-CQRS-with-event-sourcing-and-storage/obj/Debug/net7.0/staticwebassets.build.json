@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fbVXhqfMFz1Vo09siEDk+j5PDD1vcx23j2ZkMCtuZec=",
+  "Source": "03-CQRS-with-event-sourcing-and-storage",
+  "BasePath": "_content/03-CQRS-with-event-sourcing-and-storage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

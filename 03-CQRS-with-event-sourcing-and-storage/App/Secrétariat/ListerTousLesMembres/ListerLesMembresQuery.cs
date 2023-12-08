@@ -1,0 +1,3 @@
+namespace _03_CQRS_with_event_sourcing_and_storage.App.Secrétariat.ListerTousLesMembres;
+
+public record ListerLesMembresQuery;

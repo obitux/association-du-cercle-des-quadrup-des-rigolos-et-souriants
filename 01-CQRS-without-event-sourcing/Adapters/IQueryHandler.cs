@@ -1,6 +1,6 @@
 namespace _01_CQRS_without_event_sourcing.Adapters;
 
-internal interface IQueryHandler<in TQuery, TResult>
+internal interface IQueryHandler<in TQuery, out TResult>
 {
-    Task<TResult> Handle(TQuery query, CancellationToken ct);
+    TResult Handle(TQuery query);
 }

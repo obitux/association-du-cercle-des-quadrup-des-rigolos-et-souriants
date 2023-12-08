@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/02-CQRS-with-event-sourcing/02-CQRS-with-event-sourcing.csproj",
+      "projectUniqueName": "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/02-CQRS-with-event-sourcing/02-CQRS-with-event-sourcing.csproj",
       "projectName": "02-CQRS-with-event-sourcing",
-      "projectPath": "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/02-CQRS-with-event-sourcing/02-CQRS-with-event-sourcing.csproj",
+      "projectPath": "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/02-CQRS-with-event-sourcing/02-CQRS-with-event-sourcing.csproj",
       "packagesPath": "/Users/kevin.ledu/.nuget/packages/",
-      "outputPath": "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/02-CQRS-with-event-sourcing/obj/",
+      "outputPath": "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/02-CQRS-with-event-sourcing/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kevin.ledu/.nuget/NuGet/NuGet.Config"

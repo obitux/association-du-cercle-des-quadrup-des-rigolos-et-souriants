@@ -4,15 +4,14 @@ public class InMemoryMembreRepository : IMembreRepository
 {
     private readonly List<MembreInRepository> _membres = new();
 
-    public Task Create(string nom, string prénom, string email)
+    public void Create(string nom, string prénom, string email)
     {
         var row = new MembreInRepository(nom, prénom, email);
         _membres.Add(row);
-        return Task.CompletedTask;
     }
 
-    public Task<List<MembreInRepository>> List()
+    public List<MembreInRepository> List()
     {
-        return Task.FromResult(_membres.ToList());
+        return _membres.ToList();
     }
 }

@@ -19,6 +19,6 @@ public class ListerLesMembresController : ControllerBase
     public async Task<List<MembreReadModel>> Get(CancellationToken ct)
     {
         var query = new ListerLesMembresQuery();
-        return await _queryBus.Send<ListerLesMembresQuery, List<MembreReadModel>>(query, ct);
+        return _queryBus.Send<ListerLesMembresQuery, List<MembreReadModel>>(query);
     }
 }

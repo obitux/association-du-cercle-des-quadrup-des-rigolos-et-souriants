@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj": {}
+    "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj": {}
   },
   "projects": {
-    "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj": {
+    "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj",
+        "projectUniqueName": "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj",
         "projectName": "03-CQRS-with-event-sourcing-and-storage",
-        "projectPath": "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj",
+        "projectPath": "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/03-CQRS-with-event-sourcing-and-storage/03-CQRS-with-event-sourcing-and-storage.csproj",
         "packagesPath": "/Users/kevin.ledu/.nuget/packages/",
-        "outputPath": "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/03-CQRS-with-event-sourcing-and-storage/obj/",
+        "outputPath": "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/03-CQRS-with-event-sourcing-and-storage/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kevin.ledu/.nuget/NuGet/NuGet.Config"

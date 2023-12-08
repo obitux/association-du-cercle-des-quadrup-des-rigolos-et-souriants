@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gWUcfh9OfamIKrIXVJudKtgxDJ7NFN4GvsdfDmyYYW9zu1CkMlhllzLB6M/DO4o3xY9+yPYQ7AT38y6Xf0nXmQ==",
+  "dgSpecHash": "fnXo3eKF0sfkWutfmh6GzWBu+ROR8DhOBL7YeDsGkmrd05IjfA7BVhzGeI0Z+xZ0iaNIMZ8wA0MrIKilakfHeQ==",
   "success": true,
-  "projectFilePath": "/Users/kevin.ledu/RiderProjects/AssociationCercleQuadrupèdesRigolosSouriants/01-CQRS-without-event-sourcing/01-CQRS-without-event-sourcing.csproj",
+  "projectFilePath": "/Users/kevin.ledu/wakam/association-du-cercle-des-quadrupedes-rigolos-et-souriants/01-CQRS-without-event-sourcing/01-CQRS-without-event-sourcing.csproj",
   "expectedPackageFiles": [
     "/Users/kevin.ledu/.nuget/packages/microsoft.aspnetcore.openapi/7.0.9/microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "/Users/kevin.ledu/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

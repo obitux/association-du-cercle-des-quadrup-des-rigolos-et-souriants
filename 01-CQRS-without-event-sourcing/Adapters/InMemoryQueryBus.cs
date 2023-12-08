@@ -9,8 +9,8 @@ public class InMemoryQueryBus : IQueryBus
         _serviceProvider = serviceProvider;
     }
 
-    public Task<TResponse> Send<TQuery, TResponse>(TQuery query, CancellationToken ct)
+    public TResponse Send<TQuery, TResponse>(TQuery query)
     {
-        return _serviceProvider.GetRequiredService<IQueryHandler<TQuery, TResponse>>().Handle(query, ct);
+        return _serviceProvider.GetRequiredService<IQueryHandler<TQuery, TResponse>>().Handle(query);
     }
 }

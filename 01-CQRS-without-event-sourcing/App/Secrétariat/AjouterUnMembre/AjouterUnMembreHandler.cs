@@ -11,8 +11,8 @@ public class AjouterUnMembreHandler : ICommandHandler<AjouterUnMembreCommand>
         _membreRepository = membreRepository;
     }
 
-    public async Task Handle(AjouterUnMembreCommand command, CancellationToken ct)
+    public void Handle(AjouterUnMembreCommand command)
     {
-        await _membreRepository.Create(command.Nom, command.Prénom, command.Email);
+        _membreRepository.Create(command.Nom, command.Prénom, command.Email);
     }
 }

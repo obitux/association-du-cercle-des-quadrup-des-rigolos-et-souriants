@@ -11,9 +11,9 @@ public class ListerLesMembresHandler : IQueryHandler<ListerLesMembresQuery, List
         _membreRepository = inMemoryMembreRepository;
     }
 
-    public async Task<List<MembreReadModel>> Handle(ListerLesMembresQuery query, CancellationToken ct)
+    public  List<MembreReadModel> Handle(ListerLesMembresQuery query)
     {
-        var list = await _membreRepository.List();
+        var list =  _membreRepository.List();
         return list.ConvertAll(input => new MembreReadModel(input.Nom, input.Prénom, input.Email));
     }
 }

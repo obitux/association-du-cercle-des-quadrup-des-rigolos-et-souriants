@@ -16,9 +16,9 @@ public class ListerLesMembresController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<List<MembreReadModel>> Get()
+    public Task<List<MembreReadModel>> Get()
     {
         var query = new ListerLesMembresQuery();
-        return _queryBus.Send<ListerLesMembresQuery, List<MembreReadModel>>(query);
+        return Task.FromResult(_queryBus.Send<ListerLesMembresQuery, List<MembreReadModel>>(query));
     }
 }

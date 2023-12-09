@@ -13,7 +13,9 @@ public class InMemoryEventBus : IEventBus
 
     public void Send<TEvent>(TEvent ev)
     {
+        // TODO: we could use the Pattern decorator to store received Events
         _eventStore.StoreEvent(ev);
+
         var eventHandlers = _serviceProvider.GetServices<IEventHandler<TEvent>>();
         eventHandlers.ToList().ForEach(handler => handler.Handle(ev));
     }

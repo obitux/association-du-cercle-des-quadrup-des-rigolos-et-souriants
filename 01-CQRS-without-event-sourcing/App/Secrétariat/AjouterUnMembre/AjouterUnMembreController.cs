@@ -15,10 +15,9 @@ public class AjouterUnMembreController : ControllerBase
     }
 
     [HttpPost]
-    public async Task Post(
-        CancellationToken ct,
-        [FromBody] AjouterUnMembreCommand command)
+    public CommandId Post([FromBody] AjouterUnMembreCommand command)
     {
-        _commandBus.Send(command);
+        var commandId = _commandBus.Send(command);
+        return commandId;
     }
 }
